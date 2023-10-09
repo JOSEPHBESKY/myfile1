@@ -1,0 +1,34 @@
+.ButtonNormal{
+    border:1.5px solid #CF952D;
+    color:#231012;
+    font-weight:bold;
+    font-size:12px;
+    padding:5px;
+    margin-right:10px;
+    margin-top:5px;
+    border-radius:20px;
+    background-color:#FDF3E1;
+    width: 134px
+}
+
+.ButtonSelected{
+    border:1.5px solid #CF952D;
+    color:#FFFFFF;
+    font-weight:bold;
+    font-size:12px;
+    padding:5px;
+    margin-right:10px;
+    margin-top:5px;
+    border-radius:20px;
+    background-color:#C18B37;
+    width: 134px
+}
+
+.IconNormal{
+    color:#CF952D;
+}
+.IconSelected{
+    color:#FFFFFF;
+}
+/* CF952D */
+

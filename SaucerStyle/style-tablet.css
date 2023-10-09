@@ -1,0 +1,1621 @@
+@media screen and (min-width: 651px) and (max-width: 900px) {
+ 
+    .root {
+      display: flex;
+      position: absolute;
+    }
+  
+    .LoginBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-height: 500vh;
+      height: 88.5vh;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+  
+    .side-panel {
+      position: absolute;
+      /*  */
+      z-index: 10000000;
+    }
+  
+    .searchbardiv {
+      position: absolute;
+      top: 9%;
+      left: 81%;
+  
+      z-index: 15;
+      border: 1px solid #EC6331;
+      height: 25px;
+      width: 80px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .searchbardivfj {
+      position: absolute;
+      top: 7%;
+      left: 90%;
+  
+      z-index: 15;
+      /* border: 1px solid #dae1e9; */
+      height: 25px;
+      width: 80px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .searchopenfj {
+      position: absolute;
+      top: 7%;
+      left: 67%;
+      /* background-color: white; */
+      z-index: 15;
+      border: 1px solid #dae1e9;
+      height: 25px;
+      width: 250px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .menuButton {
+      margin-right: 16px;
+  
+    }
+  
+    .logimages {
+      position: absolute;
+      width: 55px;
+      height: 40px;
+      top: 93%;
+      left: 5%;
+    }
+  
+    .chatbotlogimages {
+      position: absolute;
+      width: 120px;
+      height: 100px;
+      top: 85%;
+      z-index: 1000;
+      left: 68%;
+    }
+  
+    .subgridpublicmobile {
+      background-color: #dae1e9;
+      padding-top: 40px;
+      margin-right: 20px;
+      margin-left: 10px;
+      height: 250px;
+      width: 280px;
+      border-radius: 7px;
+    }
+  
+    .SubstackPublicmpchat {
+      position: absolute;
+      top: 80%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      /* This centers the element */
+      z-index: 5;
+      background-color: white;
+      width: 80%;
+      height: 102%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      border-top-left-radius: 70px;
+      /* Adjust these values to control the roundness */
+      border-top-right-radius: 70px;
+    }
+  .formentrygridweb11{
+    
+    max-height: 560px;
+    height: 70vh;
+    /* Set the height to 50% of the parent container */
+  
+    /* width: 90%; */
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+  
+  }
+    .formentrygrid11 {
+  
+      max-height: 560px;
+      height: 70vh;
+      /* Set the height to 50% of the parent container */
+      border-radius: 8px;
+      /* width: 90%; */
+      overflow-y: auto;
+      overflow-x: hidden;
+      border: 1px solid orange;
+      margin: 15px;
+      margin-top: 35px;
+    }
+  
+    .Substack3Publicchat {
+      position: absolute;
+      top: 60%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      /* This centers the element */
+      z-index: 6;
+      background-color: #f0ecdf;
+      width: 200px;
+      text-align: center;
+      cursor: default;
+    }
+  
+    .classfiltercalendar {
+      position: absolute;
+      top: 1%;
+      left: 18%;
+  
+      z-index: 5;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 50px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .classfiltercalendar1 {
+      position: absolute;
+      top: 1%;
+      left: 45%;
+  
+      z-index: 5;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 50px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .classfiltercalendar2 {
+      position: absolute;
+      top: 1%;
+      left: 72%;
+  
+      z-index: 15;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 100px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .classfiltercalendar3 {
+      position: absolute;
+      top: 6%;
+      left: 62%;
+  
+      z-index: 15;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 100px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .Stafffiltercalendar {
+      position: absolute;
+      top: 1%;
+      left: 60%;
+  
+      z-index: 5;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 100px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .formaddicondivtittleRoleIP {
+      color: white;
+      position: absolute;
+      top: 9%;
+      left: 23%;
+      z-index: 5;
+    }
+  
+    .formaddicondivRoleIP {
+      position: absolute;
+      top: 7%;
+      left: 50%;
+      z-index: 5;
+      border: 1px solid #EC6331;
+      height: 25px;
+      width: 133px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .logofjmain {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 93%;
+      left: 4%
+    }
+  
+    .logimagesfj {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 93%;
+      left: 4%
+    }
+  
+    .closefunctioniconpubui {
+      position: absolute;
+      top: 10%;
+      left: 82%;
+      font-size: 50px;
+      z-index: 500;
+      /* border: 1px solid #EC6331; */
+      height: 25px;
+      width: 25px;
+      cursor: pointer;
+    }
+  
+    .list {
+      position: absolute;
+      top: 10px;
+      right: 12px;
+      left: 2px;
+      width: 230px;
+      max-height: 500px;
+ 
+      overflow-y: auto;
+      overflow-x: hidden;
+      max-height: 1000px;
+      z-index: 100000;
+      background-color: white;
+      box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      padding: 8px;
+  
+    }
+  
+    .list::-webkit-scrollbar-thumb {
+      background-color: #002a3a;
+      /* Track background color */
+    }
+  
+    .list-item {
+      width: auto;
+    }
+  
+    .list-item .css-cveggr-MuiListItemIcon-root {
+      min-width: 33px !important;
+  
+    }
+  
+    .list-item .css-1ui3wpj-MuiListItem-root {
+      padding: 0px;
+    }
+  
+    .isBrainBox {
+      margin-left: 5px;
+      display: none;
+      flex-direction: row;
+      background-color: #2E3191;
+      color: white;
+      width: 65px;
+      height: 21px;
+      top: 10px;
+    }
+  
+    .closeButton {
+      position: absolute;
+      top: 48px;
+      right: 100%;
+      transform: translateX(-100%);
+      margin-top: 8px;
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+  
+    .menu-button {
+      margin-left: 5px;
+      margin-top: 29px;
+      background-color: #EC6331;
+      color: white;
+      height: 40px;
+      width: 35px;
+      z-index: 10000000;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+  
+    .back-button {
+      margin-left: auto;
+      position: absolute;
+      background-color: #EC6331;
+      color: white;
+      height: 40px;
+      width: 35px;
+      z-index: 100000;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      top: 10px;
+      left: 100%;
+    }
+  
+    .m1icon {
+  
+      margin-top: 8px;
+      font-size: larger;
+    }
+  
+    .ArrowBackIosIcon {
+      margin-left: 5px;
+    }
+  
+    .renderLanguagesgrid {
+      margin-top: 20px;
+    }
+  
+    .renderLanguagesbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .my-stack {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      flex-wrap: wrap;
+      border: 1.5px solid #DDF5FF;
+      margin-top: 5px;
+      padding-top: 5px;
+      margin-left: 10px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  
+    .Plusimg {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      right: 3px;
+      bottom: 2px;
+      top: 1px;
+    }
+  
+    /* ***********************/
+    /* Subscription Plan CSS */
+    /* ***********************/
+    .boxSubscription {
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .qicklocoimg1 {
+      margin-top: 8px;
+      width: 30px;
+      height: 40px;
+      margin-left: 5px;
+      font-size: 30px;
+      color: white;
+  
+    }
+  
+    .subTypographyFont {
+      font-size: 20px;
+    }
+  
+    .subHeaderLabel {
+      padding-left: 4px;
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+      width: '70%';
+      text-decoration-line: underline;
+    }
+  
+    .subButtonLabel {
+      color: white;
+      font-size: 14px;
+      width: '70%';
+    }
+  
+    .subBox {
+      flex-grow: 1;
+      background-color: white;
+    }
+  
+    .subStack1 {
+      direction: row-reverse;
+      display: flex;
+      align-items: center;
+    }
+  
+    .subStack2 {
+      direction: row;
+      width: 100%;
+    }
+  
+    .subPlanNameLabel {
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      flex: 1;
+    }
+  
+    .subPlanDescLabel {
+      white-space: nowrap;
+      font-size: 12px;
+      font-weight: normal;
+    }
+  
+    .subGrid {
+      width: 100%;
+      padding-top: 10px;
+      align-items: center;
+    }
+  
+    .subTypography {
+      font-size: 10px;
+      /* font-weight: bold; */
+      padding-bottom: 5px;
+    }
+  
+    .selectedLanguage {
+      background-color: lightblue;
+      /* Add any other styles to indicate the selected state */
+    }
+  
+    .dialogMobile {
+      width: 90%;
+      height: 90%;
+    }
+  
+    /* ***********************/
+  
+    .dashboardmainpage {
+      margin-top: -2px;
+      width: 100%;
+      height: 93vh;
+    }
+  
+    .dashboardsup1 {
+      height: 20%;
+      background-color: #002a3a;
+    }
+  
+    .dashboardsup2 {
+      height: 80%;
+      background-color: #dae1e9;
+    }
+  
+    .quickpannelshow {
+      margin-top: 3%;
+    }
+  
+    .isFjdivicontitle {
+      /* position:'absolute',zIndex:'15',top:'31%',marginLeft:'15px',width:'100%' */
+      width: 100%;
+  
+      position: absolute;
+      top: 51%;
+      margin-left: 15px;
+    }
+  
+    .isFjdivicontitle11 {
+      /* position:'absolute',zIndex:'15',top:'31%',marginLeft:'15px',width:'100%' */
+      width: 100%;
+  
+      position: absolute;
+  
+      top: 32%;
+      left: 40%;
+    }
+  
+    .isFjdivicontitlename {
+      /* position:'absolute',zIndex:'15',top:'31%',marginLeft:'15px',width:'100%' */
+      width: 100%;
+  
+      position: absolute;
+  
+      top: 78%;
+  
+  
+    }
+  
+    .dashboardmainbox {
+      /*  display: flex;added to ensure child image is centered if it's smaller than the container */
+  
+      position: absolute;
+      top: 29%;
+      left: 10px;
+      right: 10px;
+      z-index: 5;
+      max-height: 530px;
+      height: 63%;
+      border-radius: 8px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #ffff;
+      /* width: 97%; */
+    }
+  
+    .dashboardimgdiv {
+  
+      position: absolute;
+      top: 13%;
+      left: 10px;
+      right: 10px;
+      z-index: 5;
+      max-height: 250px;
+      height: 15%;
+      border-radius: 8px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #EC6331;
+      /* width: 90%; */
+    }
+  
+    .dashboardimgdiv1 {
+      position: absolute;
+      top: 30%;
+      left: 10px;
+      right: 10px;
+      z-index: 5;
+      max-height: 180px;
+      height: 105px;
+      border-radius: 8px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #dae1e9;
+      /* width: 90%; */
+    }
+  
+    .openfunctionsdiv {
+      position: absolute;
+      top: 15%;
+      left: 20px;
+      right: 20px;
+      z-index: 5;
+      max-height: 530px;
+      height: 350px;
+      border-radius: 8px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #ffff;
+      width: 97%;
+    }
+  
+    .glowing-img {
+      margin-right: 20px;
+      opacity: 0.5;
+      filter: drop-shadow(5px 5px 10px #555);
+      background-color: #EC6331;
+      background-blend-mode: overlay;
+      width: 150px;
+  
+    }
+  
+  
+    .logo1img {
+      width: 100px;
+      height: 100px;
+      margin-top: 35px;
+      margin-left: 20px;
+    }
+  
+    .qicklocoimg {
+      margin-top: 1px;
+      width: 37px;
+      height: 35px;
+      font-size: 30px;
+      color: white;
+    }
+  
+    .div1-containerbussines {
+      position: absolute;
+      top: 12.5%;
+      left: 10px;
+      right: 10px;
+      z-index: 5;
+      max-height: 830px;
+      height: 80%;
+      border-radius: 8px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #ffff;
+    }
+  
+    .div1-containerbussinessmp {
+      position: absolute;
+      top: 11%;
+      left: 10px;
+      right: 10px;
+      z-index: 5;
+      max-height: 730px;
+      height: 82%;
+      border-radius: 8px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      /* border: 1px solid orange; */
+      background-color: #ffff;
+    }
+  
+    .formentrygrid1 {
+      max-height: 590px;
+      height: 95%;
+      border-radius: 8px;
+      /* width: 90%; */
+      overflow-x: hidden;
+      border: 1px solid orange;
+      margin: 15px;
+      margin-right: 20px;
+    }
+  
+    .formentrygridsubview1 {
+      max-height: 570px;
+      height: 93%;
+      border-radius: 8px;
+      /* width: 90%; */
+      overflow-x: hidden;
+      border: 1px solid orange;
+      margin-top: 20px;
+  
+  
+    }
+  
+    .formentrygridsubview11 {
+      max-height: 550px;
+      height: 97%;
+      border-radius: 8px;
+      /* width: 90%; */
+      overflow-x: hidden;
+      border: 1px solid orange;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  
+    }
+  
+    .funheadingdashboard {
+      position: absolute;
+      top: 7%;
+      left: 91px;
+      font-size: 14px;
+      font-weight: bold;
+      z-index: 5;
+      color: white;
+    }
+
+    .funheading {
+      position: absolute;
+      top: 7%;
+      left: 91px;
+      font-size: 14px;
+      font-weight: bold;
+      z-index: 10000001;
+      color: white;
+    }
+
+    .iconsheadinddashboard {
+      position: absolute;
+      top: 4.5%;
+      left: 43px;
+      font-size: 40px;
+      z-index: 5;
+      color: white;
+    }
+  
+    .iconsheadind {
+      position: absolute;
+      top: 4.5%;
+      left: 43px;
+      font-size: 40px;
+      z-index: 10000000;
+      color: white;
+    }
+  
+    .closefunctionicon {
+      position: absolute;
+      top: 8%;
+      left: 92%;
+      font-size: 40px;
+      z-index: 5;
+      border: 1px solid #EC6331;
+      height: 4%;
+      width: 6%;
+      cursor: pointer;
+    }
+  
+    .closefunctionicon1 {
+      position: absolute;
+      top: 3%;
+      left: 1%;
+      color: #EC6331;
+      cursor: pointer;
+    }
+  
+    .ContentBorder {
+      padding: 10px !important;
+      border: .1249rem solid #002A3A !important;
+      border-radius: 6px;
+    }
+  
+    .BtnReset {
+      background-color: #EC6331 !important;
+      color: white !important;
+      padding: 10px 20px !important;
+      border: none !important;
+      border-radius: 16px !important;
+      cursor: pointer !important;
+      height: 33px !important;
+      letter-spacing: .2px !important;
+    }
+  
+    .formaddicondivweb {
+      position: absolute;
+      top: 7%;
+      left: 72%;
+  
+      z-index: 5;
+  
+  
+  
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .formaddicondivsearch {
+      position: absolute;
+      top: 6%;
+      left: 60%;
+  
+      z-index: 5;
+      border: 1px solid #dae1e9;
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .formaddicondivmore {
+      position: absolute;
+      top: 6%;
+      left: 72%;
+  
+      z-index: 5;
+      border: 1px solid #dae1e9;
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .formaddicondiv {
+      position: absolute;
+      top: 6%;
+      left: 84%;
+  
+      z-index: 5;
+      border: 1px solid #dae1e9;
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .formaCalendericontitle {
+      color: white;
+      position: absolute;
+      top: 9%;
+      left: 1%;
+      z-index: 5;
+      width: 500px;
+    }
+  
+    .formaCalendericondivdia {
+      position: absolute;
+      top: 1%;
+      left: 10%;
+  
+      z-index: 5;
+      border: 2px solid #dae1e9;
+      height: 37px;
+      width: 140px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+      background-color: #002A3A;
+    }
+  
+    .formaCalendericondiv {
+      position: absolute;
+      top: 1%;
+      left: 10%;
+  
+      z-index: 5;
+      border: 1px solid #EC6331;
+      height: 25px;
+      width: 140px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .ssubssmallicon {
+      margin-top: 3px;
+      font-size: 24px;
+      color: #002A3A;
+      font-weight: bold;
+    }
+  
+    /* .formaddicondivtittle{
+          color: white;
+          position: absolute;
+          top: 9%;
+          left: 40%;
+          z-index: 5;
+        } */
+    .addimagicon {
+      position: absolute;
+      /* top: 1%; */
+      /* left: 1%; */
+  
+      height: 35px;
+      width: 35px;
+      /* Added height to make it round */
+      font-size: 14px;
+      display: flex;
+      /* Added to center vertically */
+      justify-content: center;
+      /* Added to center horizontally */
+      align-items: center;
+      font-family: 'Montserrat';
+      border-radius: 50%;
+      /* Make it round */
+      color: white;
+      background-color: white;
+      border: 1px solid #dae1e9;
+    }
+  
+    .searchbardiv {
+      position: absolute;
+      top: 1%;
+      left: 92%;
+  
+      z-index: 5;
+      border: 1px solid #EC6331;
+      height: 25px;
+      width: 26px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .spandividerdia {
+      position: absolute;
+      top: 15%;
+      left: 14px;
+      width: 90%;
+      border-bottom: 4px solid #dae1e9;
+      font-family: Montserrat;
+      z-index: 5;
+      cursor: pointer;
+    }
+  
+    .searchopendia {
+      position: absolute;
+      top: 17%;
+      left: 7%;
+      /* background-color: white; */
+      z-index: 5;
+      border: 1px solid #dae1e9;
+      height: 30px;
+      width: 85%;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .searchopen {
+      position: absolute;
+      top: 1%;
+      left: 35%;
+      /* background-color: white; */
+      z-index: 5;
+      border: 1px solid #EC6331;
+      height: 25px;
+      width: 250px;
+      cursor: pointer;
+      color: white;
+      border-radius: 20px;
+    }
+  
+    .searchInputdia {
+      margin-left: 30px;
+      height: 30px;
+      position: absolute;
+      top: -1px;
+      width: 83%;
+      /* border-radius: 20px; */
+      border: 1px solid #dae1e9;
+    }
+  
+    .searchInput {
+      margin-left: 25px;
+      height: 24px;
+      position: absolute;
+      top: -1px;
+      width: 198px;
+      /* border-radius: 20px; */
+      border: 1px solid #EC6331;
+    }
+  
+    .searchbarsubdiv {
+      position: absolute;
+      top: 1%;
+      left: 1%;
+  
+      height: 24px;
+      width: 24px;
+      /* Added height to make it round */
+      font-size: 14px;
+      display: flex;
+      /* Added to center vertically */
+      justify-content: center;
+      /* Added to center horizontally */
+      align-items: center;
+      font-family: 'Montserrat';
+      border-radius: 50%;
+      /* Make it round */
+      color: white;
+      background-color: white;
+      border: 1px solid #EC6331;
+    }
+  
+    .searchbarsubdiv1dia {
+      position: absolute;
+      /* top: 1%;
+          left: 0%; */
+      top: -1px;
+      height: 30px;
+      width: 30px;
+      /* Added height to make it round */
+      font-size: 14px;
+      display: flex;
+      /* Added to center vertically */
+      justify-content: center;
+      /* Added to center horizontally */
+      align-items: center;
+      font-family: 'Montserrat';
+      border-radius: 50%;
+      /* Make it round */
+      color: white;
+      background-color: white;
+      border: 1px solid #EC6331;
+    }
+  
+    .searchbarsubdiv1 {
+      position: absolute;
+      top: 1%;
+      left: 0%;
+  
+      height: 24px;
+      width: 24px;
+      /* Added height to make it round */
+      font-size: 14px;
+      display: flex;
+      /* Added to center vertically */
+      justify-content: center;
+      /* Added to center horizontally */
+      align-items: center;
+      font-family: 'Montserrat';
+      border-radius: 50%;
+      /* Make it round */
+      color: white;
+      background-color: white;
+      border: 1px solid #EC6331;
+    }
+  
+    .searchiconmain {
+  
+      font-size: 16px;
+      color: #002A3A;
+    }
+  
+    .searchbarsubdivtitle {
+      display: none;
+      color: white;
+      position: absolute;
+      top: 9%;
+      left: 40%;
+      z-index: 5;
+    }
+  
+    .closefunctionicon12dia {
+      position: absolute;
+      top: 3%;
+      left: 92%;
+      color: #dae1e9;
+      cursor: pointer;
+    }
+  
+    .closefunctionicon12 {
+      position: absolute;
+      top: 3%;
+      left: 90%;
+      color: #EC6331;
+      cursor: pointer;
+    }
+  
+  
+    .buttons--standards {
+      font-size: 1.1rem;
+      line-height: 0;
+      padding: 1.2rem 2rem;
+      background-color: #ec6331 !important;
+      border-radius: 100px !important;
+      border: none;
+      cursor: pointer;
+      color: white;
+      margin: 1em;
+      transition: 0.2s ease;
+      text-shadow: 0 0 1px darkgray !important;
+      font-weight: 300;
+      letter-spacing: 0.8px;
+    }
+  
+    .buttons--standards:hover,
+    .buttons--standards:focus {
+      background-color: #ec6331 !important;
+    }
+  
+    .buttons--3ds {
+      box-shadow: 0px 3.5px 0px 0.1px #ec6331 !important;
+    }
+  
+    .buttons--3ds:hover,
+    .buttons--3ds:focus {
+      /* transform: translateY(3.5px);
+      box-shadow: none; */
+    }
+  
+    .buttons--gradients {
+      background-size: 200% auto;
+      background-image: linear-gradient(25deg, #ec6331 0%, #002a3a 100%) !important;
+    }
+  
+    .buttons--gradients:hover,
+    .buttons--gradients:focus {
+      background-position: center;
+    }
+  
+    .buttons--square {
+      border-radius: 0 !important;
+    }
+  
+    .buttons--grow:hover,
+    .buttons--grow:focus {
+      transform: scale(1.1);
+      box-shadow: 0px 2px 5px 1px lightgray !important;
+    }
+  
+    .buttonssmall {
+      font-size: 12px !important;
+      padding: 0.8rem 2rem !important;
+    }
+  
+    .Packagemainbox {
+  
+      background-color: white;
+      margin-left: 12%;
+      width: 76%;
+      max-height: 1000vh;
+      height: 50vh;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      overflow-y: auto;
+      /* width: '100%', backgroundColor: 'white',marginLeft:'15%'  */
+    }
+  
+    /* __________________ nagetive */
+    .button1--standard1 {
+      font-size: 1.1rem;
+      line-height: 0;
+      padding: 1.2rem 2rem;
+      background-color: #ec6331 !important;
+      border-radius: 100px !important;
+      border: none;
+      cursor: pointer;
+      color: white;
+      margin: 1em;
+      transition: 0.2s ease;
+      text-shadow: 0 0 1px darkgray !important;
+      font-weight: 300;
+      letter-spacing: 0.8px;
+    }
+  
+    .button1--standard1:hover,
+    .button1--standard1:focus {
+      background-color: #ec6331 !important;
+    }
+  
+    .button1--3d1 {
+      box-shadow: 0px 3.5px 0px 0.1px #002a3a !important;
+    }
+  
+    .button1--3d1:hover,
+    .button1--3d1:focus {
+      /* transform: translateY(3.5px);
+      box-shadow: none; */
+    }
+  
+    .button1--gradient1 {
+      background-size: 200% auto;
+      background-image: linear-gradient(25deg, #002a3a 0%, #dae1e9 100%) !important;
+    }
+  
+    .button1--gradient1:hover,
+    .button1--gradient1:focus {
+      background-position: center;
+    }
+  
+    .button1small {
+  
+      font-size: 12px !important;
+      padding: 0.8rem 2rem !important;
+    }
+  
+  
+  
+  
+    .button1--square {
+      border-radius: 0;
+    }
+  
+  
+  
+    .button1--grow:hover,
+    .button1--grow:focus {
+      transform: scale(1.1);
+      box-shadow: 0px 2px 5px 1px lightgray;
+    }
+  
+  
+  
+    /* ____________________________________________ */
+  
+  
+    /* styles.css */
+    .customTextField {
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-size: 12px !important;
+        font-family: 'Montserrat' !important;
+      }
+  
+      & .MuiOutlinedInput-input {
+        color: #002a3a !important;
+        font-family: 'Montserrat' !important;
+        font-size: 12px !important;
+      }
+  
+      & .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #002a3a !important;
+      }
+  
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-weight: bold;
+      }
+  
+      & .MuiInputBase-input:focus-within {
+        color: #002a3a !important;
+  
+        & .MuiOutlinedInput-notchedOutline {
+          border-color: #002a3a !important;
+        }
+      }
+  
+      & .MuiInputBase-input {
+        color: #002a3a !important;
+      }
+    }
+  
+    /* supcription */
+    .buttonsubscrip--standardsup {
+      font-size: 1.1rem;
+      line-height: 0;
+      padding: 1.2rem 2rem;
+      background-color: #ec6331;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer;
+      color: white;
+      margin: 1em;
+      transition: 0.2s ease;
+      text-shadow: 0 0 1px darkgray;
+      font-weight: 100;
+      letter-spacing: 0.8px;
+    }
+  
+    .buttonsubscrip--standardsup:hover,
+    .buttonsubscrip--standardsup:focus {
+      background-color: #ec6331;
+    }
+  
+  
+  
+    .buttonsubscrip--3d {
+      box-shadow: 0px 3.5px 0px 0.1px #002a3a;
+    }
+  
+    .buttonsubscrip--3d:hover,
+    .buttonsubscrip--3d:focus {
+      /* transform: translateY(3.5px);
+      box-shadow: none; */
+    }
+  
+  
+  
+    .buttonsubscrip--gradientsup {
+      background-size: 200% auto;
+      background-image: linear-gradient(to right, #ec6331 0%, #002a3a 100%);
+    }
+  
+    .buttonsubscrip--gradientsup:hover,
+    .buttonsubscrip--gradientsup:focus {
+      background-position: center;
+    }
+  
+  
+  
+    .buttonsubscrip--square {
+      border-radius: 0;
+    }
+  
+  
+  
+    .buttonsubscrip--grow:hover,
+    .buttonsubscrip--grow:focus {
+      transform: scale(1.1);
+      box-shadow: 0px 2px 5px 1px lightgray;
+    }
+  
+    .customTextFieldErr {
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-size: 12px !important;
+        font-family: 'Montserrat' !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiOutlinedInput-input {
+        color: #002a3a !important;
+        font-family: 'Montserrat' !important;
+        font-size: 12px !important;
+      }
+  
+      & .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #EC6331 !important;
+      }
+  
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiInputBase-input:focus-within {
+        color: #002a3a !important;
+  
+        & .MuiOutlinedInput-notchedOutline {
+          border-color: #EC6331 !important;
+        }
+      }
+  
+      & .MuiInputBase-input {
+        color: #EC6331 !important;
+      }
+    }
+    .isIconinfo{
+     
+      cursor: pointer;
+      position: absolute;
+  
+      margin-left: -36px;
+    }
+    .isIconinfo1{
+     
+      cursor: pointer;
+      position: absolute;
+  top: 0%;
+      left: 78%;
+    }
+    .liInfo:before {
+      content: '\f101'; 
+    color:#EC6631;
+      font-family: FontAwesome;
+      margin-right: 12px;
+      vertical-align: middle;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .infoname{
+      position: absolute;
+      top: 10%;
+      left: 5%;
+    }
+    .closenewicon{
+      cursor: pointer;
+      width: 28px;
+      height: 28px;
+      background-color: #002A3A;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-left: 91%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+    }
+    .closenewiconBSession{
+      cursor: pointer;
+      width: 28px;
+      height: 28px;
+      background-color: #002A3A;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      margin-left: 0%;
+      margin-top: 1px;
+      margin-bottom: 10px;
+      
+    }
+    .customTextFieldlogin {
+      & .MuiInputLabel-root {
+        color: white !important;
+        font-size: 12px !important;
+        font-family: 'Montserrat' !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiOutlinedInput-input {
+        color: white !important;
+        font-family: 'Montserrat' !important;
+        font-size: 12px !important;
+      }
+  
+      & .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border: none !important;
+      }
+  
+      & .MuiInputLabel-root {
+        color: white !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiInputBase-input:focus-within {
+        color: white !important;
+        /* & .MuiOutlinedInput-notchedOutline {
+        border-color: white !important;
+      } */
+      }
+  
+      & .MuiInputBase-input {
+        color: white !important;
+      }
+    }
+  
+    .logincustomTextFieldErr {
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-size: 12px !important;
+        font-family: 'Montserrat' !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiOutlinedInput-input {
+        color: #002a3a !important;
+        font-family: 'Montserrat' !important;
+        font-size: 12px !important;
+      }
+  
+      & .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+        border-color: #EC6331 !important;
+      }
+  
+      & .MuiInputLabel-root {
+        color: #EC6331 !important;
+        font-weight: bold !important;
+      }
+  
+      & .MuiInputBase-input:focus-within {
+        color: #002a3a !important;
+  
+        & .MuiOutlinedInput-notchedOutline {
+          border-color: #EC6331 !important;
+        }
+      }
+  
+      & .MuiInputBase-input {
+        color: #EC6331 !important;
+      }
+    }
+  
+    ::-webkit-scrollbar {
+      width: 5px;
+      /* Adjust width of the scrollbar here */
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: transparent;
+      /* This is the track of the scrollbar, keep it transparent or set another color if you wish */
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      /* Make the actual thumb transparent */
+      border: solid 5px #002a3a;
+      /* Create a border that looks like the thumb */
+      background-clip: padding-box;
+      /* Clip the background to the padding box so the border remains visible */
+      border-radius: 4px;
+      /* Making it round */
+    }
+  
+    /* For Internet Explorer and Edge */
+    body::-ms-overflow-style {
+      overflow-style: scrollbar;
+    }
+  
+    .my-custom-bg {
+      background-image: url('https://apps.jetinks.net/jetadmin/Ipath/di/csoon.png') !important;
+      background-repeat: no-repeat !important;
+  
+      background-size: cover !important;
+      height: 200px;
+      /* Set the fixed height you desire */
+  
+    }
+  
+    .swal2-popup {
+      border-radius: 22px !important;
+      box-shadow: 2px 2px 5px rgba(155, 145, 145, 0.4);
+    }
+  
+    .my-custom-bg .swal2-content {
+      overflow-y: auto;
+      flex-grow: 1;
+    }
+  
+    .my-custom-bg .swal2-styled.swal2-confirm {
+      margin-top: 123px;
+    }
+  
+    /* For Chrome, Safari and newer versions of Opera */
+    .css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar {
+      height: 10px !important;
+      /* Set the height of the x-axis scrollbar */
+    }
+  
+    .css-11xur9t-MuiPaper-root-MuiTableContainer-root::-webkit-scrollbar-thumb {
+      background-color: #888 !important;
+      /* Set the color of the scroll thumb */
+      border-radius: 4px !important;
+      /* Rounded corners for the scroll thumb */
+  
+    }
+  
+    .rbc-event-label {
+      color: white;
+    }
+  
+    /* For Firefox */
+    .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+      scrollbar-width: thin !important;
+      scrollbar-color: #888 #eee !important;
+      /* thumb color and track color */
+    }
+  
+    /* For Chrome, Safari and newer versions of Opera */
+    .css-13xy2my::-webkit-scrollbar {
+      height: 10px !important;
+      /* Set the height of the x-axis scrollbar */
+    }
+  
+    .css-13xy2my::-webkit-scrollbar-thumb {
+      background-color: #888 !important;
+      /* Set the color of the scroll thumb */
+      border-radius: 4px !important;
+      /* Rounded corners for the scroll thumb */
+  
+    }
+  
+    /* For Firefox */
+    .css-13xy2my {
+      scrollbar-width: thin !important;
+      scrollbar-color: #888 #eee !important;
+      /* thumb color and track color */
+    }
+    .closemebericonchatbot{
+      cursor: pointer;
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      background-color: #002A3A;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      top: 10%;
+      left: 135%;
+  
+      margin-bottom: 10px;
+    }
+    .closemebericon{
+      cursor: pointer;
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      background-color: #002A3A;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      top: 35%;
+      left: 133%;
+  
+      margin-bottom: 10px;
+    }
+    .closemebericon1{
+      cursor: pointer;
+      position: absolute;
+      z-index: 10000;
+      width: 28px;
+      height: 28px;
+      background-color: #002A3A;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      top: 13.5%;
+      left: 91%;
+  
+      margin-bottom: 10px;
+    }
+    .infinite-scroll-component::-webkit-scrollbar {
+      height: 10px !important;
+      /* Set the height of the x-axis scrollbar */
+    }
+    .infinite-scroll-component::-webkit-scrollbar-thumb {
+      background-color: #888 !important;
+      /* Set the color of the scroll thumb */
+      border-radius: 4px !important;
+      /* Rounded corners for the scroll thumb */
+    
+    }
+    
+    /* For Firefox */
+    .infinite-scroll-component {
+      scrollbar-width: thin !important;
+      scrollbar-color: #888 #eee !important;
+    }
+  
+  }

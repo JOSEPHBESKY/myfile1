@@ -1,0 +1,152 @@
+.serBox {
+    height: 35px;
+    min-width:100px;
+    border-radius: 30px;
+    /* border: 2px solid #3899EC; */
+    cursor: pointer;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-shadow:0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}
+label{
+     font-family: 'Montserrat', sans-serif;
+}
+.hLbl{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #29AAE1;
+    cursor: context-menu;
+   
+    right: 10px;
+}
+.hLblnew{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #29AAE1;
+    cursor: context-menu;
+}
+.lLbl{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #1D1919;
+    cursor: context-menu;
+    padding-top: 2.5px;
+}
+.sLbl{
+     font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    cursor: context-menu;
+    margin-left: 5px;
+}
+.locDiv{
+    position: relative;
+    right: 10px;
+}
+.head{
+    background-color: #FDF3E1;
+     color: white;
+     cursor: ' context-menu';
+     width:100%; 
+     min-width: 170px;
+     height:20px;
+    border-radius:0px 10px 10px 0px;
+    position: relative;
+    right: 15.5px;
+}
+.head:hover{
+    background-color: #FDF3E1;
+     color: white;
+     cursor: ' context-menu';
+     width:100%; 
+     height:20px;
+      border-radius:0px 10px 10px 0px;
+      position: relative;
+    right: 15.5px;
+}
+.select{
+    position: relative;
+    right: 12px;
+    cursor: pointer;
+}
+.SeLbl{
+    font-size:12px;
+  border:none;
+  width: 70px;
+  border-radius:5px;
+    box-shadow:0px 5px 0px 0px #1d7f8a, 
+      0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color:white;
+  background:#29AAE1;
+  cursor:pointer;
+  transition:all 0.16s;
+  position:relative;
+  height: 20px;
+  top:0;
+  margin-left: 5px;
+}
+
+.SeLbl:focus{
+    outline:none;
+  }
+  .SeLbl:active{
+    box-shadow: 0px 2.5px 0px 0px #1d7f8a;
+    top:2px;
+  }
+
+.rating{
+    height: 14px;
+    width: 40px;
+    background-color: #5EAF34;
+    float: right;
+    position: relative;
+    border-radius: 5px;
+}
+
+.Btn{
+    border-radius: 20px;
+    border-color: white;
+    height: 25px;
+    background-color: green;   
+    width: 60px;
+}
+
+.Btn1{
+    border-radius: 20px;
+    border-color: white;
+    height: 25px;
+    background-color: red;   
+    width: 60px;
+}
+
+.labeDish{
+    font-size: 12px;
+    color: rgb(59, 57, 57);
+    
+}
+.lblTime{
+    font-size: 10px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+}.lblTime1{
+    font-size: 10px;
+    color: rgb(99, 96, 96);
+
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+.lblAMT{
+    font-size: 12px;
+    color: rgb(37, 35, 35);
+    font-weight: bold;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}

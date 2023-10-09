@@ -1,0 +1,50 @@
+.excel-sheet {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    height: 400px;
+    overflow: auto;
+}
+
+[data-datasheet-cell] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #333;
+    display: block;
+    font-size: inherit;
+    font-weight: inherit;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 2px 5px;
+    text-align: left;
+    white-space: nowrap;
+    width: 100px;
+}
+
+[data-datasheet-cell].selected {
+    background-color: blue;
+}
+
+[data-datasheet-row] {
+    display: flex;
+}
+
+[data-datasheet-col] {
+    flex: 1;
+}
+
+.wide-cell [data-datasheet-cell] {
+    width: 150px;
+}
+
+.data-grid-container .data-grid .cell .value-viewer ,
+.data-grid-container .data-grid .cell .data-editor{
+   display: block;
+   box-sizing: content-box;
+   width: inherit;  /*  Works when edit the cell Fix edit cell width into cell width  */
+   height: auto;    /*  Works when edit the cell Fix edit cell hight is increased little bit  */
+ }

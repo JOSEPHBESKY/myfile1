@@ -1,0 +1,154 @@
+.serBox {
+    height: 35px;
+    min-width:100px;
+    border-radius: 30px;
+    /* border: 2px solid #3899EC; */
+    cursor: pointer;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-shadow:0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}
+.serBoxs {
+    height: 35px;
+    min-width:10px;
+    border-radius: 30px;
+    /* border: 2px solid #3899EC; */
+    cursor: pointer;
+    background-color: white;
+    margin-left: 150px;
+    margin-right: 10px;
+    box-shadow:0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}
+@media (min-width: 601px) and (max-width: 3000px) {
+.serBox1 {
+    height: 35px;
+    min-width:10px;
+    border-radius: 30px;
+    /* border: 2px solid #3899EC; */
+    cursor: pointer;
+    background-color: white;
+
+    margin-left: 60%;
+    margin-right: 10px;
+    box-shadow:0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}
+.paymentgrid{
+    align-items: flex-end;
+    /* margin-left: 10%; */
+}
+.reportTable{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.clr1{
+    margin-left: 12px;
+}
+}
+@media (min-width: 200px) and (max-width: 599px) {
+    .serBox1 {
+        height: 35px;
+    min-width:100px;
+    border-radius: 30px;
+    /* border: 2px solid #3899EC; */
+    cursor: pointer;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 10px;
+    box-shadow:0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+    }
+    .paymentgrid{
+        margin-left: 30%;
+    }
+    .reportTable{
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .clr1{
+        margin-left: 1px;
+    }
+    .ref1{
+        display: none;
+    }
+    .clrbtns{
+        width: 40px;
+        margin-right: 10px;
+        box-shadow:0px 5px 0px 0px#770909, 
+        0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+    color:white;
+    background:red;
+    cursor:pointer;
+    }
+   .datepicker{
+    margin-top: 30px;
+    padding: 10px;
+   }
+    
+    }
+div{
+   font-family: 'Montserrat', sans-serif;
+  color: #1a1a1a;
+}
+
+label{
+   font-family: 'Montserrat', sans-serif;
+}
+.Btn{
+    border-radius: 20px;
+    border-color: white;
+    height: 25px;
+    background-color: green;   
+    width: 60px;
+}
+
+.Btn1{
+    border-radius: 20px;
+    border-color: white;
+    height: 25px;
+    background-color: red;   
+    width: 60px;
+}
+
+.labeDish{
+    font-size: 14px;
+    color: rgb(59, 57, 57);
+    
+}
+.lblTime{
+    font-size: 12px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+}.lblTime1{
+    font-size: 10px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+    margin-top: 8px;
+    
+}
+.lblAMT{
+    font-size: 12px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+}
+@media (min-width: 601px) and (max-width: 3000px) {
+.disview{
+  width: 100%;
+  margin-top: 50px;
+align-content: center;
+margin-left: 525px;
+}
+}
+@media (min-width: 600px) {
+    .MobileDatePicker {
+      display: inline-block;
+      margin-left: 20px;
+
+    }
+  }
+
+  @media (max-width: 599px) {
+    .MobileDatePicker {
+      display: block;
+ 
+    }
+  }

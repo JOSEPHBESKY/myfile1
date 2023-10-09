@@ -1,0 +1,351 @@
+.serBox {
+  height: 35px;
+  min-width: 50px;
+  border-radius: 30px;
+  /* border: 2px solid #3899EC; */
+  cursor: pointer;
+  background-color: white;
+  margin-left: 5px;
+  position: relative;
+  box-shadow: 0px 0px 10px 1px rgba(102, 100, 100, 0.30);
+}
+
+.DeliveryLbl {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div {
+   font-family: 'Montserrat', sans-serif;
+}
+
+label {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.clrBtn {
+  font-size: 12px;
+  border: none;
+  /*width: 60px;*/
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #002a3a,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: #002a3a;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.clrBtn:focus {
+  outline: none;
+}
+
+.clrBtn:active {
+  box-shadow: 0px 3px 0px 0px #1d7f8a;
+  top: 2px;
+}
+
+.clrBtn2 {
+  font-size: 12px;
+  border: none;
+  width: 60px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px#770909,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+}
+
+.clrBtn2:focus {
+  outline: none;
+}
+
+.clrBtn2:active {
+  box-shadow: 0px 3px 0px 0px #770909;
+  top: 2px;
+}
+
+.clrBtn1 {
+  font-size: 11px;
+  border: none;
+  width: 78px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #1d7f8a,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: #29AAE1;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  left: 15px;
+}
+
+.clrBtn1:focus {
+  outline: none;
+}
+
+.clrBtn1:active {
+  box-shadow: 0px 3px 0px 0px #1d7f8a;
+  top: 2px;
+}
+
+.accBtn {
+  background-color: green;
+  font-size: 12px;
+  border: none;
+  /*width: 75px;*/
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #125220,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.accBtn:focus {
+  outline: none;
+}
+
+.accBtn:active {
+  box-shadow: 0px 3px 0px 0px #125220;
+  top: 2px;
+}
+
+.canBtn {
+  font-size: 12px;
+  border: none;
+  /*width: 75px;*/
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #770909,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.canBtn:focus {
+  outline: none;
+}
+
+.canBtn:active {
+  box-shadow: 0px 3px 0px 0px #770909;
+  top: 2px;
+}
+
+.menusss {
+  position: absolute;
+  height: 110px;
+  width: 300px;
+  background-color: whitesmoke;
+  top: 33px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 999999;
+}
+
+.Btn {
+  border-radius: 20px;
+  border-color: white;
+  height: 25px;
+  background-color: green;
+  width: 60px;
+}
+
+.Btn1 {
+  border-radius: 20px;
+  border-color: white;
+  height: 25px;
+  background-color: red;
+  width: 60px;
+}
+
+.labeDish {
+  font-size: 12px;
+  color: rgb(59, 57, 57);
+
+}
+
+.lblTime {
+  font-size: 10px;
+  color: rgb(99, 96, 96);
+  font-weight: bold;
+}
+
+.lblAMT {
+  font-size: 12px;
+  color: rgb(37, 35, 35);
+  font-weight: bold;
+}
+
+.accBtns {
+  background-color: green;
+  font-size: 12px;
+  border: none;
+  width: 75px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #c9984a,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: #F1AE43;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 25px;
+  top: 0;
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.accBtns:focus {
+  outline: none;
+}
+
+.accBtns:active {
+  box-shadow: 0px 3px 0px 0px #125220;
+  top: 2px;
+}
+
+
+
+
+
+.btnOrderTrackBlue {
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #002A3A,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: #002A3A;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btnOrderTrack:focus {
+  outline: none;
+}
+
+.btnOrderTrack:active {
+  box-shadow: 0px 3px 0px 0px #1d7f8a;
+  top: 2px;
+}
+
+
+
+.btnOrderTrackRed {
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  /*width: 75px;*/
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #770909,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btnOrderTrackRed:focus {
+  outline: none;
+}
+
+.btnOrderTrackRed:active {
+  box-shadow: 0px 3px 0px 0px #770909;
+  top: 2px;
+}
+
+
+.btnOrderTrackGray {
+  background-color: gray;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  /* width: 75px; */
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px gray,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btnOrderTrackGray:focus {
+  outline: none;
+}
+
+.btnOrderTrackGray:active {
+  box-shadow: 0px 3px 0px 0px #125220;
+  top: 2px;
+}
+
+.btnAccGreen {
+  background-color: green;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  /*width: 75px;*/
+  border-radius: 30px;
+  box-shadow: 0px 5px 0px 0px #125220,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+  height: 20px;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btnAccGreen:focus {
+  outline: none;
+}
+
+.btnAccGreen:active {
+  box-shadow: 0px 3px 0px 0px #125220;
+  top: 2px;
+}

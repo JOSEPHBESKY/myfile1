@@ -1,0 +1,166 @@
+.LogLbl{
+    color: white;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logBtn{
+    font-size:12px;
+    border:none;
+    width: 70px;
+    border-radius:5px;
+      box-shadow:0px 5px 0px 0px #002A3A, 
+        0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+    color:white;
+    background:#002A3A;
+    cursor:pointer;
+    transition:all 0.16s;
+    position:relative;
+    height: 20px;
+    top:0;
+    margin-left: 5px;
+}
+.logBtn:focus{
+    outline:none;
+  }
+  .logBtn:active{
+    box-shadow: 0px 3px 0px 0px #002A3A;
+    top:2px;
+  }
+
+
+  .logSendOTPBtn{
+    font-size:12px;
+    border:none;
+    width: 70px;
+    border-radius:5px;
+      box-shadow:0px 5px 0px 0px #EC6331, 
+        0px 0px 5px 0px rgba(236, 99, 46, 0.4);
+    color:white;
+    background:#EC6331 !important;
+    cursor:pointer;
+    transition:all 0.16s;
+    position:relative;
+    height: 20px;
+    top:0;
+    margin-left: 5px;
+}
+.logSendOTPBtn:focus{
+    outline:none;
+  }
+  .logSendOTPBtn:active{
+    box-shadow: 0px 3px 0px 0px #EC6331;
+    top:2px;
+  }
+
+.newBtn{
+    font-size:12px;
+    border:none;
+    width: 70px;
+    border-radius:5px;
+      box-shadow:0px 5px 0px 0px #125220, 
+        0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+    color:white;
+    background:#002A3A;
+    cursor:pointer;
+    transition:all 0.16s;
+    position:relative;
+    height: 20px;
+    top:0;
+    margin-left: 5px;
+}
+.newBtn:focus{
+    outline:none;
+  }
+  .newBtn:active{
+    box-shadow: 0px 3px 0px 0px #25942e;
+    top:2px;
+  }
+
+
+
+   
+.btnLoginBlue {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 5px 0px 0px #1d7f8a,
+    0px 0px 5px 0px rgba(120, 120, 120, 0.4);
+  color: white;
+  background: #002A3A;
+  cursor: pointer;
+  transition: all 0.16s;
+  position: relative;
+   top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+.btnLoginBlue:focus {
+  outline: none;
+}
+
+.btnLoginBlue:active {
+  box-shadow: 0px 3px 0px 0px #1d7f8a;
+  top: 2px;
+}
+.loginscreendiv{
+  max-height: 5060px;
+  height: 90%;
+}
+.button--standard {
+  font-size: 1.1rem;
+  line-height: 0;
+  padding: 1.2rem 2rem;
+  background-color: #ec6331;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 1em;
+  transition: 0.2s ease;
+  text-shadow: 0 0 1px darkgray;
+  font-weight: 300;
+}
+.button--standard:hover, .button--standard:focus {
+  background-color: #ec6331;
+}
+
+ 
+
+.button--3d {
+  box-shadow: 0px 3.5px 0px 0.1px #EC6331;
+}
+.button--3d:hover, .button--3d:focus {
+  transform: translateY(3.5px);
+  box-shadow: none;
+}
+
+ 
+
+.button--gradient {
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #ec6331 0%, #002a3a 100%);
+}
+.button--gradient:hover, .button--gradient:focus {
+  background-position: center;
+}
+
+ 
+
+.button--square {
+  border-radius: 0;
+}
+
+ 
+
+.button--grow:hover, .button--grow:focus {
+  transform: scale(1.1);
+  box-shadow: 0px 2px 5px 1px lightgray;
+}
